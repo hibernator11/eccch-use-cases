@@ -4,6 +4,10 @@ This project shows a selection of use cases based on the [European Collaborative
 
 ## Use cases
 
+The following picture shows how existing platforms and services are integrated to create the use cases in the ECCCH , to foster excellence in data and Digital Commons. Note that this figure was inspired by the ECHOES project website and tries to illustrate how our approach fits within the current research data infrastructure.
+
+<img width="50%" src="imgs/eccch-integration.png">
+
 ## License
 
 ## How to use this code
