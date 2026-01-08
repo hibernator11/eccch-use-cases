@@ -30,3 +30,4 @@ The code can be also installed in a computer by following these steps:
 ## How to cite
 
 ## References
+- https://www.echoes-eccch.eu/faq/
