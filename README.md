@@ -25,7 +25,7 @@ The code can be also installed in a computer by following these steps:
 - open the folder with the code
 - run the command: pip install -r requirements.txt
 - open Jupyter (or Anaconda)
-- open the notebookS provided
+- open the notebooks provided
 
 ## How to cite
 - Gustavo Candela, Milena Dobreva, Henk Alkemade, Olga Holownia, Mahendra Mahey, Sarah Ames, Karen Renaud, Ines Vodopivec, Benjamin Charles Germain Lee, Thomas Padilla, Steven Claeyssens, Isto Huvila, Beth Knazook: A Use Case Lens on Digital Cultural Heritage. CoRR abs/2509.08710 (2025)
