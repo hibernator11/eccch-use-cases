@@ -8,7 +8,7 @@ The following picture shows how existing platforms and services are integrated t
 
 <img width="50%" src="imgs/eccch-integration.png">
 
-- Using and reusing notebooks in high-performance computing environments [notebook](HPC.ipynb)
+- Using and reusing notebooks in high-performance computing environments: See [notebook](HPC.ipynb)
 - Application of notebooks in digital twins
 - AI preservation use case
 - Open Science for notebooks
