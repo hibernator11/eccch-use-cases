@@ -10,11 +10,16 @@ The following picture shows how existing platforms and services are integrated t
 
 <img width="50%" src="imgs/eccch-integration.png">
 
-- Using and reusing notebooks in high-performance computing environments: See [notebook](HPC.ipynb)
-- Application of notebooks in digital twins
-- AI preservation use case
-- Open Science for notebooks
-- Sustainability for notebooks
+**Note that the code provided is in the form of a prototype. In some cases, a local environment is required such as the case of the employment of local LLMs. This work intends to provide an approach of how it could be implemented, since the ECCCH is currently under development. The notebooks can be run in a local environment as well as using cloud services such as Binder and EOSC Interactive Notebooks.**
+
+### Using and reusing notebooks in high-performance computing environments 
+
+This use case shows how to reuse maps made available by the National Library of Spain following a set of steps: extraction, OCR analysis using LLMs, metadata generation and dissemination. For more information, see the [notebook](HPC.ipynb).
+
+### Application of notebooks in digital twins
+### AI preservation use case
+### Open Science for notebooks
+### Sustainability for notebooks
 
 ## Licence
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />Content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
