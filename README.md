@@ -10,7 +10,7 @@ The following picture shows how existing platforms and services are integrated t
 
 <img width="50%" src="imgs/eccch-integration.png">
 
-**Note that the code provided is in the form of a prototype. In some cases, a local environment is required such as the case of the employment of local LLMs. This work intends to provide an approach of how it could be implemented, since the ECCCH is currently under development. The notebooks can be run in a local environment as well as using cloud services such as Binder and EOSC Interactive Notebooks.**
+Note that the code provided is in the form of a prototype. In some cases, a local environment is required such as the case of the employment of local LLMs. This work intends to provide an approach of how it could be implemented, since the ECCCH is currently under development. The notebooks can be run in a local environment as well as using cloud services such as Binder and EOSC Interactive Notebooks.
 
 ### Using and reusing notebooks in high-performance computing environments 
 
