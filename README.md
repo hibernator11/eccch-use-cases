@@ -49,3 +49,9 @@ Note that these notebooks can be run in different cloud services such as [Binder
 - https://open-science-cloud.ec.europa.eu/services/interactive-notebooks
 - Gustavo Candela, Javier Pereda, Dolores Sáez, Pilar Escobar, Alexander Sánchez, Andrés Villa Torres, Albert A. Palacios, Kelly McDonough, and Patricia Murrieta-Flores. 2023. An Ontological Approach for Unlocking the Colonial Archive. J. Comput. Cult. Herit. 16, 4, Article 74 (December 2023), 18 pages. https://doi.org/10.1145/3594727
 - Sander Münster, Melissa Terras, The visual side of digital humanities: a survey on topics, researchers, and epistemic cultures, Digital Scholarship in the Humanities, Volume 35, Issue 2, June 2020, Pages 366–389, https://doi.org/10.1093/llc/fqz022
+- Candela, G., Rosiński, C., & Margraf, A. (2025). A reproducible framework to publish and reuse Collections as data: the case of the European Literary Bibliography (Version 4, Vol. 965, Issue 170). Transformations: A DARIAH Journal . https://doi.org/10.46298/transformations.14729
+- Gustavo Candela, Javier Pereda, Dolores Sáez, Pilar Escobar, Alexander Sánchez, Andrés Villa Torres, Albert A. Palacios, Kelly McDonough, and Patricia Murrieta-Flores. 2023. An Ontological Approach for Unlocking the Colonial Archive. J. Comput. Cult. Herit. 16, 4, Article 74 (December 2023), 18 pages. https://doi.org/10.1145/3594727
+- https://developers.zenodo.org/#quickstart-upload
+- https://www.echoes-eccch.eu/wp-content/uploads/2025/06/ECHOES_HDT_Ontology.pdf
+- https://marketplace.sshopencloud.eu/about/api-documentation
+- https://www.wikidata.org/
