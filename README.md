@@ -16,7 +16,7 @@ All the use cases employs the following workflow:
 
 <img src="imgs/workflow.png" width="100%">
 
-For the integration with the ECCCH, and its knowledge base, we have used several ontologies such as [CIDOC-CRM](https://cidoc-crm.org/), [Schema.org](https://schema.org/) and [Data Catalog Vocabulary (DCAT)](https://www.w3.org/TR/vocab-dcat-3/). Note that in this approach, and given that the ECCCH data model is still under development, we describe as main classes software (Jupyter Notebooks) and data. 
+For the integration with the ECCCH, and its knowledge base, we have used several ontologies such as [CIDOC-CRM](https://cidoc-crm.org/), [Schema.org](https://schema.org/) and [Data Catalog Vocabulary (DCAT)](https://www.w3.org/TR/vocab-dcat-3/). In particular, the [CIDOCdig](https://cidoc-crm.org/crmdig) model for provenance metadata is interesting to describe the outputs of this work. Note that in this approach, and given that the ECCCH data model is still under development, we describe as main classes software (Jupyter Notebooks) and data. 
 
 <img src="imgs/eccch-integration-steps.png" width="100%">
 
@@ -63,3 +63,4 @@ Note that these notebooks can be run in different cloud services such as [Binder
 - https://www.echoes-eccch.eu/wp-content/uploads/2025/06/ECHOES_HDT_Ontology.pdf
 - https://marketplace.sshopencloud.eu/about/api-documentation
 - https://www.wikidata.org/
+- https://cidoc-crm.org/crmdig
