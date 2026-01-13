@@ -12,6 +12,10 @@ The following picture shows how existing platforms and services are integrated t
 
 Note that the code provided is in the form of a prototype. In some cases, a local environment is required such as the case of the employment of local LLMs. This work intends to provide an approach of how it could be implemented, since the ECCCH is currently under development. The notebooks can be run in a local environment as well as using cloud services such as Binder and EOSC Interactive Notebooks.
 
+All the use cases employs the following workflow:
+
+<img src="imgs/workflow.png" width="100%">
+
 ### Using and reusing notebooks in high-performance computing environments 
 
 This use case shows how to reuse a [collections of maps made available by the National Library of Spain](https://bnedigital.bne.es/bd/es/export?o=&o=o&o=n&o=&o=o&o=n&w=&w=&w=&w=&w=&w=&f=ficha&f=ficha&f=ficha&f=ficha&f=ficha&f=ficha&p=&f4=Material+cartogr%C3%A1fico+manuscrito&g=ws&g=dd&g=ld&g=pd&g=pg&g=hh&g=fa&d=date&d=&d=&startYear=&endYear=&year=&l=10&x=adefadbf-b10b-4a34-a0d7-98513056a7b3) following a set of steps in the form of a reproducible workflow: extraction, OCR analysis using LLMs, metadata generation and dissemination in platforms such as Zenodo. For more information, see the [notebook](HPC.ipynb).
