@@ -10,7 +10,7 @@ The following picture shows how existing platforms and services are integrated t
 
 <img width="50%" src="imgs/eccch-integration.png">
 
-Note that the code provided is in the form of a prototype. In some cases, a local environment is required such as the case of the employment of local LLMs. This work intends to provide an approach of how it could be implemented, since the ECCCH is currently under development. The notebooks can be run in a local environment as well as using cloud services such as Binder and EOSC Interactive Notebooks.
+Note that the code provided in thiw work is in the form of a prototype. In some cases, a local environment is required such as the case of the employment of local LLMs for OCR and storing word embeddings. This work intends to provide an approach of how it could be implemented, since the ECCCH is currently under development. The collection of notebooks can be run in a local environment as well as using cloud services such as [Binder](https://mybinder.org/) and [EOSC Interactive Notebooks](https://open-science-cloud.ec.europa.eu/services/interactive-notebooks).
 
 All the use cases employs the following workflow:
 
