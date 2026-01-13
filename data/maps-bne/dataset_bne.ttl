@@ -14,6 +14,7 @@
     dc:title "National Library of Spain" ;
     dcterms:publisher <https://example.org/organization/bne> ;
     dcterms:title "Maps from the National Library of Spain" ;
+    dcat:dataset <https://example.org/dataset/bne-maps> ;
     foaf:homepage <https://bnedigital.bne.es/> ;
     schema:dateCreated "2026-01-13" ;
     schema:description "Maps from the National Library of Spain" ;
@@ -4128,21 +4129,8 @@
     dcat:downloadURL <https://raw.githubusercontent.com/hibernator11/eccch-use-cases/refs/heads/main/data/maps-bne/metadata-bne.csv> ;
     dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> .
 
-<https://example.org/distribution/bne-maps-ttl> a dcat:Distribution ;
-    dcterms:title "TTL distribution of BNE cartographic material"@en,
-        "Distribución en TTL del conjunto de datos de mapas de la BNE"@es ;
-    dcat:byteSize 943000 ;
-    dcat:downloadURL <https://raw.githubusercontent.com/hibernator11/eccch-use-cases/refs/heads/main/data/maps-bne/dataset_bne.ttl> ;
-    dcat:mediaType <http://www.iana.org/assignments/media-types/application/n-triples> .
-
-<https://example.org/distribution/bne-maps-txt> a dcat:Distribution ;
-    dcterms:title "TXT distribution of BNE cartographic material"@en,
-        "Distribución en TXT del conjunto de datos de mapas de la BNE"@es ;
-    dcat:byteSize 671000 ;
-    dcat:downloadURL <https://raw.githubusercontent.com/hibernator11/eccch-use-cases/refs/heads/main/data/maps-bne/metadata-bne.txt> ;
-    dcat:mediaType <https://www.iana.org/assignments/media-types/text/plain> .
-
-<https://example.org/hpc-work/bne-maps> prov:endedAtTime "2026-01-13" ;
+<https://example.org/hpc-work/bne-maps> a prov:Activity ;
+    prov:endedAtTime "2026-01-13" ;
     prov:generated <https://example.org/distribution/bne-maps-ttl> ;
     prov:startedAtTime "2026-01-13" ;
     prov:used <https://example.org/distribution/bne-maps-txt> .
@@ -16450,11 +16438,27 @@
 
 <https://example.org/time/99> rdfs:label "Barcelona 10 de Enero, 1865" .
 
+<https://example.org/distribution/bne-maps-ttl> a dcat:Distribution ;
+    dcterms:title "TTL distribution of BNE cartographic material"@en,
+        "Distribución en TTL del conjunto de datos de mapas de la BNE"@es ;
+    dcat:byteSize 943000 ;
+    dcat:downloadURL <https://raw.githubusercontent.com/hibernator11/eccch-use-cases/refs/heads/main/data/maps-bne/dataset_bne.ttl> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/n-triples> .
+
+<https://example.org/distribution/bne-maps-txt> a dcat:Distribution ;
+    dcterms:title "TXT distribution of BNE cartographic material"@en,
+        "Distribución en TXT del conjunto de datos de mapas de la BNE"@es ;
+    dcat:byteSize 671000 ;
+    dcat:downloadURL <https://raw.githubusercontent.com/hibernator11/eccch-use-cases/refs/heads/main/data/maps-bne/metadata-bne.txt> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/plain> .
+
 <https://example.org/dataset/bne-maps> a dcat:Dataset ;
     dcterms:issued "2026-01-13" ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/es> ;
     dcterms:title "Maps from the National Library of Spain"@en ;
-    dcat:distribution <https://example.org/distribution/bne-maps-csv> ;
+    dcat:distribution <https://example.org/distribution/bne-maps-csv>,
+        <https://example.org/distribution/bne-maps-ttl>,
+        <https://example.org/distribution/bne-maps-txt> ;
     dcat:keyword "Cartographic material",
         "Collections as data",
         "Maps" .
