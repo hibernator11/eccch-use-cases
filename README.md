@@ -49,7 +49,7 @@ The code can be also installed in a computer by following these steps:
 Note that these notebooks can be run in different cloud services such as [Binder](https://mybinder.org/) and [EOSC Interactive Notebooks](https://open-science-cloud.ec.europa.eu/services/interactive-notebooks).
 
 ## How to cite
-- Gustavo Candela, Milena Dobreva, Henk Alkemade, Olga Holownia, Mahendra Mahey, Sarah Ames, Karen Renaud, Ines Vodopivec, Benjamin Charles Germain Lee, Thomas Padilla, Steven Claeyssens, Isto Huvila, Beth Knazook: A Use Case Lens on Digital Cultural Heritage. CoRR abs/2509.08710 (2025)
+- Gustavo Candela, Milena Dobreva, Henk Alkemade, Olga Holownia, Mahendra Mahey, Sarah Ames, Karen Renaud, Ines Vodopivec, Benjamin Charles Germain Lee, Thomas Padilla, Steven Claeyssens, Isto Huvila, Beth Knazook, Sander Münster: A Use Case Lens on Digital Cultural Heritage. CoRR abs/2509.08710 (2025)
   
 ## References
 - Niccolucci F, Markhoff B, Theodoridou M et al. The Heritage Digital Twin: a bicycle made for two. The integration of digital methodologies into cultural heritage research [version 1; peer review: 2 approved with reservations]. Open Res Europe 2023, 3:64 (https://doi.org/10.12688/openreseurope.15496.1)
