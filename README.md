@@ -64,3 +64,4 @@ Note that these notebooks can be run in different cloud services such as [Binder
 - https://marketplace.sshopencloud.eu/about/api-documentation
 - https://www.wikidata.org/
 - https://cidoc-crm.org/crmdig
+- https://cidoc-crm.org/sites/default/files/CRMdigv4.0.pdf
