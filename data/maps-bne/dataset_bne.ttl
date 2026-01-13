@@ -3,6 +3,7 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -4115,10 +4116,22 @@
     cidoc-crm:P4_has_time-span <https://example.org/time/1> ;
     cidoc-crm:P94_has_created <https://example.org/record/0174814836> .
 
+<https://example.org/notebooks/bne-maps> a prov:Entity ;
+    dcterms:title "Using and reusing notebooks in high-performance computing environments "@en ;
+    dcat:mediatype <https://www.iana.org/assignments/media-types/application/x-ipynb+json> ;
+    prov:wasGeneratedBy <https://example.org/hpc-work/bne-maps> .
+
+<https://example.org/distribution/bne-maps-csv> a dcat:Distribution ;
+    dcterms:title "CSV distribution of BNE cartographic material"@en,
+        "Distribución en CSV del conjunto de datos de mapas de la BNE"@es ;
+    dcat:byteSize 300000 ;
+    dcat:downloadURL <https://raw.githubusercontent.com/hibernator11/eccch-use-cases/refs/heads/main/data/maps-bne/metadata-bne.csv> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> .
+
 <https://example.org/distribution/bne-maps-ttl> a dcat:Distribution ;
     dcterms:title "TTL distribution of BNE cartographic material"@en,
         "Distribución en TTL del conjunto de datos de mapas de la BNE"@es ;
-    dcat:byteSize 528000 ;
+    dcat:byteSize 943000 ;
     dcat:downloadURL <https://raw.githubusercontent.com/hibernator11/eccch-use-cases/refs/heads/main/data/maps-bne/dataset_bne.ttl> ;
     dcat:mediaType <http://www.iana.org/assignments/media-types/application/n-triples> .
 
@@ -4129,12 +4142,10 @@
     dcat:downloadURL <https://raw.githubusercontent.com/hibernator11/eccch-use-cases/refs/heads/main/data/maps-bne/metadata-bne.txt> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/text/plain> .
 
-<https://example.org/distribution/bne-maps-csv> a dcat:Distribution ;
-    dcterms:title "CSV distribution of BNE cartographic material"@en,
-        "Distribución en CSV del conjunto de datos de mapas de la BNE"@es ;
-    dcat:byteSize 300000 ;
-    dcat:downloadURL <https://raw.githubusercontent.com/hibernator11/eccch-use-cases/refs/heads/main/data/maps-bne/metadata-bne.csv> ;
-    dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> .
+<https://example.org/hpc-work/bne-maps> prov:endedAtTime "2026-01-13" ;
+    prov:generated <https://example.org/distribution/bne-maps-ttl> ;
+    prov:startedAtTime "2026-01-13" ;
+    prov:used <https://example.org/distribution/bne-maps-txt> .
 
 <https://example.org/organization/bne> a foaf:Organization ;
     rdfs:label "National Library of Spain" ;
