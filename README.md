@@ -30,7 +30,7 @@ This use case shows how to reuse a [collections of maps made available by the Na
 
 ### Open Science for notebooks
 
-This use case will address Open Science for data and code sharing using platforms such as Zenodo and OpenAire and making the entire research process more transparent and accessible, promoting collaboration, and maximizing the impact of research. It will try to answer the follwing research questions: (1) How can Open Science and Digital Commons be addressed by means of notebooks in the ECCCH? (2) How can we showcase, extend and improve the ECCCH to fully support Open Science and Digital Commons in order to engage with the public? For more information, see the [notebook](OpenScience.ipynb).
+This use case will address Open Science for data and code sharing using platforms such as Zenodo and OpenAIRE and making the entire research process more transparent and accessible, promoting collaboration, and maximizing the impact of research. It will try to answer the follwing research questions: (1) How can Open Science and Digital Commons be addressed by means of notebooks in the ECCCH? (2) How can we showcase, extend and improve the ECCCH to fully support Open Science and Digital Commons in order to engage with the public? For more information, see the [notebook](OpenScience.ipynb).
 
 ### Sustainability for notebooks
 
