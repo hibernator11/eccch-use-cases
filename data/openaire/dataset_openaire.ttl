@@ -1,0 +1,62 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/catalog/openaire> a dcat:catalog,
+        schema:Dataset ;
+    rdfs:label "OpenAIRE Knowledge Graph" ;
+    dc:title "OpenAIRE" ;
+    dcterms:publisher <https://example.org/organization/openaire> ;
+    dcterms:title "The OpenAIRE Graph is a free and open resource that brings together and interlinks hundreds of millions of metadata records from over 100k data sources trusted by researchers." ;
+    dcat:dataset <https://example.org/dataset/openaire> ;
+    foaf:homepage <https://graph.openaire.eu/> ;
+    schema:dateCreated "2026-01-16" ;
+    schema:description "The OpenAIRE Graph is a free and open resource that brings together and interlinks hundreds of millions of metadata records from over 100k data sources trusted by researchers." ;
+    schema:license <https://creativecommons.org/licenses/by/4.0/> ;
+    schema:name "The OpenAIRE Graph is a free and open resource that brings together and interlinks hundreds of millions of metadata records from over 100k data sources trusted by researchers." ;
+    schema:url <https://graph.openaire.eu/> .
+
+<https://example.org/notebooks/openaire> a prov:Entity ;
+    dcterms:title "Open Science for notebooks"@en ;
+    dcat:mediatype <https://www.iana.org/assignments/media-types/application/x-ipynb+json> ;
+    prov:wasGeneratedBy <https://example.org/openscience-work/openaire> .
+
+<https://example.org/dataset/openaire> a dcat:Dataset ;
+    dcterms:issued "2026-01-16" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:title "Top 100 most influential research products in OpenAIRE that contain the phrase knowledge graphs"@en ;
+    dcat:distribution <https://example.org/distribution/openaire-json>,
+        <https://example.org/distribution/openaire-ttl> ;
+    dcat:keyword "Data",
+        "Knowledge graphs",
+        "Research products" .
+
+<https://example.org/openscience-work/openaire> a prov:Activity ;
+    prov:endedAtTime "2026-01-16" ;
+    prov:generated <https://example.org/distribution/openaire-ttl> ;
+    prov:startedAtTime "2026-01-16" ;
+    prov:used <https://example.org/distribution/openaire-json> .
+
+<https://example.org/organization/openaire> a foaf:Organization ;
+    rdfs:label "OpenAIRE" ;
+    foaf:homepage <https://graph.openaire.eu/> .
+
+<https://example.org/distribution/openaire-json> a dcat:Distribution ;
+    dcterms:title "JSON distribution of OpenAIRE results"@en,
+        "Distribución en JSON del conjunto de datos de la búsqueda de OpenAIRE"@es ;
+    dcat:byteSize 1000000 ;
+    dcat:downloadURL <https://raw.githubusercontent.com/hibernator11/eccch-use-cases/refs/heads/main/data/openaire/metadata-openaire.json> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/json> .
+
+<https://example.org/distribution/openaire-ttl> a dcat:Distribution ;
+    dcterms:title "TTL distribution of of OpenAIRE results"@en,
+        "Distribución en TTL del conjunto de datos de la búsqueda de OpenAIRE"@es ;
+    dcat:byteSize 360000 ;
+    dcat:downloadURL <https://raw.githubusercontent.com/hibernator11/eccch-use-cases/refs/heads/main/data/openaire/dataset_openaire.ttl> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/n-triples> .
+
