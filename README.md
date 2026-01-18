@@ -33,8 +33,7 @@ This use case shows how to reuse a [collections of maps made available by the Na
 This use case will address Open Science for data and code sharing using platforms such as Zenodo and OpenAIRE and making the entire research process more transparent and accessible, promoting collaboration, and maximizing the impact of research. It will try to answer the follwing research questions: (1) How can Open Science and Digital Commons be addressed by means of notebooks in the ECCCH? (2) How can we showcase, extend and improve the ECCCH to fully support Open Science and Digital Commons in order to engage with the public? For more information, see the [notebook](Open-Science.ipynb).
 
 ### Sustainability for notebooks
-
-For more information, see the [notebook](Sustainability.ipynb).
+This use case will showcase how existing \note{notebooks} projects provided by relevant European institutions can be assessed in terms of sustainability. It will use the collection of Jupyter Notebooks compiled by the [International GLAM Labs Community](https://www.glamlabs.io/computational-access-to-digital-collections). For more information, see the [notebook](Sustainability.ipynb).
 
 ## Licence
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />Content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
