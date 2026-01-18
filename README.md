@@ -34,6 +34,8 @@ This use case will address Open Science for data and code sharing using platform
 
 ### Sustainability for notebooks
 
+For more information, see the [notebook](Sustainability.ipynb).
+
 ## Licence
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />Content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
 
@@ -71,4 +73,5 @@ Note that these notebooks can be run in different cloud services such as [Binder
 - https://cidoc-crm.org/crmdig
 - https://cidoc-crm.org/sites/default/files/CRMdigv4.0.pdf
 - https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html
+- https://fusion-jena.github.io/fairjupyter/
 - https://www.echoes-eccch.eu/faq/
