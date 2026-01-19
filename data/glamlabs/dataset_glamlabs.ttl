@@ -1,0 +1,62 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/catalog/glamlabs> a dcat:catalog,
+        schema:Dataset ;
+    rdfs:label "International GLAM Labs Community" ;
+    dc:title "International GLAM Labs Community" ;
+    dcterms:publisher <https://example.org/organization/glamlabs> ;
+    dcterms:title "The information describing the Jupyter Notebook projects and the datasets reused has been introduced into Wikidata, a collaborative edition platform." ;
+    dcat:dataset <https://example.org/dataset/glamlabs> ;
+    foaf:homepage <https://www.glamlabs.io/computational-access-to-digital-collections> ;
+    schema:dateCreated "2026-01-19" ;
+    schema:description "The information describing the Jupyter Notebook projects and the datasets reused has been introduced into Wikidata, a collaborative edition platform." ;
+    schema:license <https://creativecommons.org/licenses/by/4.0/> ;
+    schema:name "The information describing the Jupyter Notebook projects and the datasets reused has been introduced into Wikidata, a collaborative edition platform." ;
+    schema:url <https://www.glamlabs.io/computational-access-to-digital-collections> .
+
+<https://example.org/notebooks/glamlabs> a prov:Entity ;
+    dcterms:title "Sustainability for notebooks"@en ;
+    dcat:mediatype <https://www.iana.org/assignments/media-types/application/x-ipynb+json> ;
+    prov:wasGeneratedBy <https://example.org/sustainability-work/glamlabs> .
+
+<https://example.org/dataset/glamlabs> a dcat:Dataset ;
+    dcterms:issued "2026-01-19" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:title "Jupyter Notebooks projects compiled by the International GLAM Labs Community"@en ;
+    dcat:distribution <https://example.org/distribution/glamlabs-json>,
+        <https://example.org/distribution/glamlabs-ttl> ;
+    dcat:keyword "Collections as data",
+        "Data",
+        "GLAM" .
+
+<https://example.org/organization/glamlabs> a foaf:Organization ;
+    rdfs:label "International GLAM Labs Community" ;
+    foaf:homepage <https://www.glamlabs.io/> .
+
+<https://example.org/sustainability-work/glamlabs> a prov:Activity ;
+    prov:endedAtTime "2026-01-19" ;
+    prov:generated <https://example.org/distribution/glamlabs-ttl> ;
+    prov:startedAtTime "2026-01-19" ;
+    prov:used <https://example.org/distribution/glamlabs-json> .
+
+<https://example.org/distribution/glamlabs-json> a dcat:Distribution ;
+    dcterms:title "JSON distribution of Wikidata results"@en,
+        "Distribución en JSON del conjunto de datos de la búsqueda de Wikidata"@es ;
+    dcat:byteSize 1000000 ;
+    dcat:downloadURL <https://raw.githubusercontent.com/hibernator11/eccch-use-cases/refs/heads/main/data/glamlabs/metadata-glamlabs.json> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/json> .
+
+<https://example.org/distribution/glamlabs-ttl> a dcat:Distribution ;
+    dcterms:title "TTL distribution of the Jupyter Notebooks results"@en,
+        "Distribución en TTL del conjunto de datos de Jupyter Notebooks"@es ;
+    dcat:byteSize 360000 ;
+    dcat:downloadURL <https://raw.githubusercontent.com/hibernator11/eccch-use-cases/refs/heads/main/data/glamlabs/dataset_glamlabs.ttl> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/n-triples> .
+
