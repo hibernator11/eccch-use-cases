@@ -1,11 +1,18 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix pav: <https://pav-ontology.github.io/pav/pav.rdf> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix repr: <https://w3id.org/reproduceme> .
 @prefix schema: <https://schema.org/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+wd:Q123852539 a repr:Notebook ;
+    pav:retrievedFrom <https://labs.onb.ac.at/gitlab/labs-team/austroflug-notebook> .
 
 <https://example.org/catalog/glamlabs> a dcat:catalog,
         schema:Dataset ;
@@ -20,6 +27,10 @@
     schema:license <https://creativecommons.org/licenses/by/4.0/> ;
     schema:name "The information describing the Jupyter Notebook projects and the datasets reused has been introduced into Wikidata, a collaborative edition platform." ;
     schema:url <https://www.glamlabs.io/computational-access-to-digital-collections> .
+
+<https://example.org/file/1> a repr:File ;
+    rdfs:label "austroflug-geopandas-visualize.ipynb" ;
+    pav:retrievedFrom <https://labs.onb.ac.at/gitlab/labs-team/austroflug-notebook> .
 
 <https://example.org/notebooks/glamlabs> a prov:Entity ;
     dcterms:title "Sustainability for notebooks"@en ;
@@ -59,4 +70,6 @@
     dcat:byteSize 360000 ;
     dcat:downloadURL <https://raw.githubusercontent.com/hibernator11/eccch-use-cases/refs/heads/main/data/glamlabs/dataset_glamlabs.ttl> ;
     dcat:mediaType <http://www.iana.org/assignments/media-types/application/n-triples> .
+
+<https://labs.onb.ac.at/gitlab/labs-team/austroflug-notebook> a doap:GitRepository .
 
