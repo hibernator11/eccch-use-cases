@@ -72,5 +72,6 @@ Note that these notebooks can be run in different cloud services such as [Binder
 - https://cidoc-crm.org/crmdig
 - https://cidoc-crm.org/sites/default/files/CRMdigv4.0.pdf
 - https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html
+- Niccolucci, Franco, and Achille Felicetti. 2024. "Digital Twin Sensors in Cultural Heritage Ontology Applications" Sensors 24, no. 12: 3978. https://doi.org/10.3390/s24123978
 - https://fusion-jena.github.io/fairjupyter/
 - https://www.echoes-eccch.eu/faq/
