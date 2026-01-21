@@ -28,7 +28,7 @@ This use case shows how to reuse a [collections of maps made available by the Na
 This use case will demonstrate how data relevant to various digital twins models can be supported by notebooks to provide examples of use. For more information, see the [notebook](Digital-Twins.ipynb).
 
 ### AI preservation
-
+This use case will explore how to approach the long-term preservation of AI models which are contributing to notebooks. For more information, see the [notebook](AI-Preservation.ipynb).
 
 ### Open Science for notebooks
 
