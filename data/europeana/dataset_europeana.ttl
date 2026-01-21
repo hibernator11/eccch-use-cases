@@ -1,0 +1,41 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/catalog/digital-twins> a dcat:catalog,
+        schema:Dataset ;
+    rdfs:label "The Reconstruction of the Heidentor - 3D model Europeana" ;
+    dc:title "Europeana" ;
+    dcterms:publisher <https://example.org/organization/europeana> ;
+    dcterms:title "The Reconstruction of the Heidentor - 3D model Europeana" ;
+    foaf:homepage <https://bnedigital.bne.es/> ;
+    schema:dateCreated "2026-01-21" ;
+    schema:description "The Reconstruction of the Heidentor - 3D model Europeana" ;
+    schema:license <http://creativecommons.org/licenses/by-nc/4.0/> ;
+    schema:name "The Reconstruction of the Heidentor - 3D model Europeana" ;
+    schema:url <https://bnedigital.bne.es/> .
+
+<https://example.org/dataset/digital-twins> a dcat:Dataset ;
+    dcterms:issued "2026-01-21" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:title "The Reconstruction of the Heidentor - 3D model Europeana"@en ;
+    dcat:distribution <https://example.org/distribution/digital-twins-json> ;
+    dcat:keyword "3D models",
+        "Collections as data",
+        "Metadata" .
+
+<https://example.org/distribution/digital-twins-ttl> a dcat:Distribution ;
+    dcterms:title "TTL distribution of the 3D model The Reconstruction of the Heidentor"@en,
+        "Distribución en TTL del modelo 3D Reconstruction of the Heidentor de Europeana"@es ;
+    dcat:byteSize 528000 ;
+    dcat:downloadURL <https://raw.githubusercontent.com/hibernator11/eccch-use-cases/refs/heads/main/data/maps-bne/dataset_bne.ttl> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/n-triples> .
+
+<https://example.org/organization/europeana> a foaf:Organization ;
+    rdfs:label "Europeana" ;
+    foaf:homepage <https://www.europeana.eu/> .
+
