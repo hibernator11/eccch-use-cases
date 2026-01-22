@@ -75,5 +75,6 @@ Note that these notebooks can be run in different cloud services such as [Binder
 - https://cidoc-crm.org/sites/default/files/CRMdigv4.0.pdf
 - https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html
 - Niccolucci, Franco, and Achille Felicetti. 2024. "Digital Twin Sensors in Cultural Heritage Ontology Applications" Sensors 24, no. 12: 3978. https://doi.org/10.3390/s24123978
+- Jiarui Liu, Wenkai Li, Zhijing Jin, and Mona Diab. 2024. Automatic Generation of Model and Data Cards: A Step Towards Responsible AI. In Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers), pages 1975–1997, Mexico City, Mexico. Association for Computational Linguistics.
 - https://fusion-jena.github.io/fairjupyter/
 - https://www.echoes-eccch.eu/faq/
