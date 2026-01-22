@@ -28,14 +28,13 @@ This use case shows how to reuse a [collections of maps made available by the Na
 This use case will demonstrate how data relevant to various digital twins models can be supported by notebooks to provide examples of use. For more information, see the [notebook](Digital-Twins.ipynb).
 
 ### AI preservation
-This use case will explore how to approach the long-term preservation of AI models which are contributing to notebooks. For more information, see the [notebook](AI-Preservation.ipynb).
+This use case will explore how to approach the long-term preservation of AI models which are contributing to notebooks. It will analyse previous work and state-of-art approaches such as provenance documentation in the form of cards and datasheets, as well as standardised packages to store AI models, training data and code. For more information, see the [notebook](AI-Preservation.ipynb).
 
 ### Open Science for notebooks
-
 This use case will address Open Science for data and code sharing using platforms such as Zenodo and OpenAIRE and making the entire research process more transparent and accessible, promoting collaboration, and maximizing the impact of research. It will try to answer the follwing research questions: (1) How can Open Science and Digital Commons be addressed by means of notebooks in the ECCCH? (2) How can we showcase, extend and improve the ECCCH to fully support Open Science and Digital Commons in order to engage with the public? For more information, see the [notebook](Open-Science.ipynb).
 
 ### Sustainability for notebooks
-This use case will showcase how existing notebooks projects provided by relevant European institutions can be assessed in terms of sustainability. It will use the collection of Jupyter Notebooks compiled by the [International GLAM Labs Community](https://www.glamlabs.io/computational-access-to-digital-collections). For more information, see the [notebook](Sustainability.ipynb).
+This use case will showcase how existing notebooks projects provided by relevant European institutions can be assessed in terms of sustainability. It will use the collection of Jupyter Notebooks compiled by the [International GLAM Labs Community](https://www.glamlabs.io/computational-access-to-digital-collections), and in particular, a project made available by the Austrian National Library. For more information, see the [notebook](Sustainability.ipynb).
 
 ## Licence
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />Content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
