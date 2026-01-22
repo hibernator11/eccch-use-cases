@@ -1,0 +1,51 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/catalog/ai> a dcat:catalog,
+        schema:Dataset ;
+    rdfs:label "AI preservation examples" ;
+    dc:title "OpenAIRE" ;
+    dcterms:publisher <https://example.org/organization/ai> ;
+    dcterms:title "This use case will explore how to approach the long-term preservation of AI models which are contributing to notebooks." ;
+    dcat:dataset <https://example.org/dataset/ai> ;
+    schema:dateCreated "2026-01-22" ;
+    schema:description "This use case will explore how to approach the long-term preservation of AI models which are contributing to notebooks." ;
+    schema:license <https://creativecommons.org/licenses/by/4.0/> ;
+    schema:name "This use case will explore how to approach the long-term preservation of AI models which are contributing to notebooks." .
+
+<https://example.org/notebooks/openaire> a prov:Entity ;
+    dcterms:title "AI preservation"@en ;
+    dcat:mediatype <https://www.iana.org/assignments/media-types/application/x-ipynb+json> ;
+    prov:wasGeneratedBy <https://example.org/preservation-work/openaire> .
+
+<https://example.org/dataset/ai> a dcat:Dataset ;
+    dcterms:issued "2026-01-22" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:title "LLM model to generate model cards and datasheets for AI models"@en ;
+    dcat:distribution <https://example.org/distribution/ai-ttl> ;
+    dcat:keyword "Data",
+        "LLM",
+        "Research products" .
+
+<https://example.org/organization/ai> a foaf:Organization ;
+    rdfs:label "AI preservation group" ;
+    foaf:homepage <https://glamlabs.io/> .
+
+<https://example.org/preservation-work/openaire> a prov:Activity ;
+    prov:endedAtTime "2026-01-22" ;
+    prov:generated <https://example.org/distribution/ai-ttl> ;
+    prov:startedAtTime "2026-01-22" .
+
+<https://example.org/distribution/ai-ttl> a dcat:Distribution ;
+    dcterms:title "TTL distribution of AI preservation"@en,
+        "Distribución en TTL del conjunto de datos de AI preservation"@es ;
+    dcat:byteSize 260000 ;
+    dcat:downloadURL <https://raw.githubusercontent.com/hibernator11/eccch-use-cases/refs/heads/main/data/ai/dataset_ai.ttl> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/n-triples> .
+
