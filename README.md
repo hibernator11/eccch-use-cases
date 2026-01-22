@@ -25,7 +25,7 @@ For the integration with the ECCCH, and its knowledge base, we have used several
 This use case shows how to reuse a [collections of maps made available by the National Library of Spain](https://bnedigital.bne.es/bd/es/export?o=&o=o&o=n&o=&o=o&o=n&w=&w=&w=&w=&w=&w=&f=ficha&f=ficha&f=ficha&f=ficha&f=ficha&f=ficha&p=&f4=Material+cartogr%C3%A1fico+manuscrito&g=ws&g=dd&g=ld&g=pd&g=pg&g=hh&g=fa&d=date&d=&d=&startYear=&endYear=&year=&l=10&x=adefadbf-b10b-4a34-a0d7-98513056a7b3) following a set of steps in the form of a reproducible workflow: extraction, OCR analysis using LLMs, metadata generation and dissemination in platforms such as Zenodo. For more information, see the [notebook](HPC.ipynb).
 
 ### Application of notebooks in digital twins
-This use case will demonstrate how data relevant to various digital twins models can be supported by notebooks to provide examples of use. For more information, see the [notebook](Digital-Twins.ipynb).
+This use case will demonstrate how data relevant to various digital twins models can be supported by notebooks to provide examples of use. For example, it will simulate a historic builing with sensors generating data and how this information is stored using ontologies based on CIDOC-CRM. For more information, see the [notebook](Digital-Twins.ipynb).
 
 ### AI preservation
 This use case will explore how to approach the long-term preservation of AI models which are contributing to notebooks. It will analyse previous work and state-of-art approaches such as provenance documentation in the form of cards and datasheets, as well as standardised packages to store AI models, training data and code. For more information, see the [notebook](AI-Preservation.ipynb).
