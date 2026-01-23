@@ -1,6 +1,7 @@
 # A Use Case Lens on Digital Cultural Heritage
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hibernator11/eccch-use-cases/HEAD)
+[![DOI](https://zenodo.org/badge/1130249641.svg)](https://doi.org/10.5281/zenodo.18347390)
 
 This project shows a selection of use cases based on the [European Collaborative Cloud for Cultural Heritage](https://www.echoes-eccch.eu) (ECCCH). It provides a collection of Jupyter Notebooks describing how the use cases are created including details about the data reused, the extraction, process and integration with EU research data infrastructures.
 
